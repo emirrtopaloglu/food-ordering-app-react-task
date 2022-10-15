@@ -1,0 +1,26 @@
+.feature {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.feature-card {
+    background-color: #444;
+    color: #fff;
+    width: 50%;
+    padding: 40px 20px;
+    border-radius: 3px;
+    position: absolute;
+    left: 25%;
+    bottom: -25%;
+    text-align: center;
+}
+
+.feature-card h2 {
+    margin-bottom: 10px;
+}

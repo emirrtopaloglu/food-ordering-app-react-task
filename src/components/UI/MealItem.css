@@ -1,0 +1,49 @@
+.meal-item {
+    background-color: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meal-title {
+    margin-bottom: 5px;
+}
+
+.meal-desc {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.meal-price {
+    font-weight: bold;
+    color: indianred;
+}
+
+.meal-actions {
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+.meal-actions input {
+    width: 50px;
+}
+
+.meal-actions span {
+    font-weight: 600;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.meal-actions div {
+    width: 100%;
+    text-align: right;
+    float: right;
+
+}

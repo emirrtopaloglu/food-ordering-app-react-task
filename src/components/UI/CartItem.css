@@ -1,0 +1,27 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.cart-item-title {
+    margin-bottom: 10px;
+}
+
+.cart-item-price {
+    color: indianred;
+    font-weight: bold;
+}
+
+.cart-item-amount {
+    margin-left: 20px;
+    border: 1px solid #dcdcdc;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.cart-item-actions button {
+    margin-left: 10px;
+}
